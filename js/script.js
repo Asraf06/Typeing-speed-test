@@ -107,4 +107,6 @@ function closePopup() {
   document.getElementById('warningPopup').style.display = 'none';
 }
 
-  
+function reloadPage() {
+    location.reload();
+  }
